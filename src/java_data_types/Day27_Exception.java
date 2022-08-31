@@ -21,6 +21,8 @@ public class Day27_Exception {
             e.printStackTrace();
         } catch (Exception e) {
             e.printStackTrace();
+        } finally {
+            System.out.println("The try block ended");
         }
     }
 }
